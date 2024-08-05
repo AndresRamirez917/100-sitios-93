@@ -21,6 +21,11 @@ ul {
   list-style: none;
 }
 
+.navbar ul li a:hover,
+.navbar ul li a.active {
+  color: rgba(0, 0, 0, 0.3254901961);
+}
+
 .container {
   max-width: 1300px;
   margin: 0 auto;
@@ -46,6 +51,7 @@ img {
   text-transform: capitalize;
   color: #fff;
   border: none;
+  border-radius: 5px;
   cursor: pointer;
 }
 
@@ -113,6 +119,8 @@ select .form-control {
 }
 
 #mainheader .navbar {
+  position: fixed;
+  width: 100%;
   margin: 0 auto;
   background: violet;
 }
@@ -141,7 +149,7 @@ select .form-control {
   margin-bottom: 10rem;
 }
 #showcase .container .showcase-flex .flexbox-1 {
-  margin-top: 3rem;
+  margin-top: 10rem;
 }
 #showcase .container .showcase-flex .flexbox-1 span {
   color: violet;
@@ -168,6 +176,7 @@ select .form-control {
   margin: 2rem 0;
 }
 #showcase .container .showcase-flex .flexbox-2 {
+  margin-top: 10rem;
   width: 90%;
   text-align: center;
 }
@@ -185,6 +194,7 @@ select .form-control {
   width: fit-content;
   padding: 2rem 10rem;
   margin-bottom: 2rem;
+  color: #fff;
 }
 #booking .container .booking-flex {
   gap: 100px;
