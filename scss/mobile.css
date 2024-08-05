@@ -18,4 +18,64 @@
 }
 #mainheader .navbar .container {
   display: block;
+}
+
+#showcase {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+#showcase .container .showcase-flex {
+  display: block;
+}
+#showcase .container .showcase-flex .flexbox-1 {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+#showcase .container .showcase-flex .flexbox-1 a {
+  margin: 0 auto;
+  text-align: center;
+}
+#showcase .container .showcase-flex .flexbox-2 img {
+  width: 500px;
+}
+
+#booking {
+  margin-bottom: 2rem;
+}
+#booking .container .btn-2 {
+  width: 100%;
+  text-align: center;
+  padding: 3rem 0;
+}
+#booking .container .booking-flex {
+  display: block;
+  margin: 0 auto;
+}
+#booking .container .booking-flex .flexbox-1 {
+  width: 100%;
+}
+#booking .container .booking-flex .flexbox-2 {
+  width: 100%;
+}
+
+#about {
+  margin-bottom: 2rem;
+}
+#about .container .about-flex {
+  display: block;
+}
+#about .container .about-flex .flexbox-1, #about .container .about-flex .flexbox-2 {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+#speakers .container .speakers-flex {
+  display: block;
+}
+#speakers .container .speakers-flex .flexbox-1 {
+  margin-bottom: 1rem;
+}
+#speakers .container .speakers-flex .flexbox-1 img {
+  width: 100%;
 }/*# sourceMappingURL=mobile.css.map */

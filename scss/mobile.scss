@@ -23,3 +23,79 @@
     }
 }
 
+//showcase
+#showcase {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    .container {
+        .showcase-flex {
+            display: block;
+            .flexbox-1 {
+                display: block;
+                margin: 0 auto;
+                text-align: center;
+                a {
+                    margin: 0 auto;
+                    text-align: center;
+                }
+            }
+            .flexbox-2 {
+                img {
+                    width: 500px;
+                }
+            }
+        }
+    }
+}
+
+//booking
+#booking {
+    margin-bottom: 2rem;
+    .container {
+        .btn-2 {
+            width: 100%;
+            text-align: center;
+            padding: 3rem 0;
+        }
+        .booking-flex {
+            display: block;
+            margin: 0 auto;
+            .flexbox-1 {
+                width: 100%;
+            }
+            .flexbox-2 {
+                width: 100%;
+            }
+        }
+    }
+}
+
+//about
+#about {
+    margin-bottom: 2rem;
+    .container {
+        .about-flex {
+            display: block;
+            .flexbox-1, .flexbox-2 {
+                width: 100%;
+                margin-bottom: 2rem;
+            }
+        }
+    }
+}
+
+//speakers
+#speakers {
+    .container {
+        .speakers-flex {
+            display: block;
+            .flexbox-1 {
+                margin-bottom: 1rem;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+

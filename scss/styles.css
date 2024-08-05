@@ -169,6 +169,7 @@ select .form-control {
 }
 #showcase .container .showcase-flex .flexbox-2 {
   width: 90%;
+  text-align: center;
 }
 #showcase .container .showcase-flex .flexbox-2 img {
   width: 100%;
