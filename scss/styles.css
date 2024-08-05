@@ -93,6 +93,27 @@ form input:focus {
   border: 1px solid blue;
 }
 
+#mainheader .navbar {
+  background: violet;
+}
+#mainheader .navbar .logo {
+  font-size: 2rem;
+  font-weight: 300;
+  color: #fff;
+  margin: 0.8rem 3rem;
+  width: 30%;
+}
+#mainheader .navbar ul {
+  display: flex;
+  margin-left: 25rem;
+  margin-top: 1.5rem;
+  text-align: end;
+}
+#mainheader .navbar ul li {
+  margin-left: 1rem;
+  text-align: end;
+}
+
 #footer {
   padding: 3rem 0;
   text-align: center;

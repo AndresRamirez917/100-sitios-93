@@ -91,6 +91,31 @@ form {
     }
 }
 
+//mainheader
+#mainheader {
+    .navbar {
+        background: violet;
+        .logo {
+            font-size: 2rem;
+            font-weight: 300;
+            color: #fff;
+            margin: .8rem 3rem;
+            width: 30%;
+        }
+        ul {
+            display: flex;
+            margin-left: 25rem;
+            margin-top: 1.5rem;
+           text-align: end;
+            li {
+                margin-left: 1rem;
+                text-align: end;
+            }
+        }
+    
+    }
+}
+
 //footer
 #footer {
     padding: 3rem 0;
