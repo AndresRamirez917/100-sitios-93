@@ -48,6 +48,7 @@ img {
     text-align: center;
     text-transform: capitalize;
     color: #fff;
+    border: none;
     cursor: pointer;
 }
 
@@ -84,6 +85,7 @@ form {
         width: 100%;
         display: block;
         padding: 1rem;
+        margin-bottom: 1rem;
     }
     input:focus {
         outline: none;
@@ -93,26 +95,111 @@ form {
 
 //mainheader
 #mainheader {
-    .navbar {
-        background: violet;
-        .logo {
-            font-size: 2rem;
-            font-weight: 300;
-            color: #fff;
-            margin: .8rem 3rem;
-            width: 30%;
-        }
-        ul {
+
+        .navbar {
+            margin: 0 auto;
+            background: violet;
+            .logo {
+                font-size: 2rem;
+                font-weight: 300;
+                color: #fff;
+                margin: .8rem 3rem;
+            }
+            ul {
+                display: flex;
+                margin-top: 1.5rem;
+                li {
+                    margin-left: 1rem;
+    
+                }
+            }
+        .container {
             display: flex;
-            margin-left: 25rem;
-            margin-top: 1.5rem;
-           text-align: end;
-            li {
-                margin-left: 1rem;
-                text-align: end;
+            justify-content: space-between;
+            width: 100%;
+        }
+    }   
+}
+
+//showcase
+#showcase {
+    width: 90%;
+    margin: 0 auto;
+    .container {
+        .showcase-flex {
+            .flexbox-1 {
+                margin-top: 3rem;
+                span {
+                    color: violet;
+                }
+                h1 {
+                    font-size: 5rem;
+                   
+                    .span-2 {
+                        color: #000;
+                        font-weight: 300;
+                        font-size: 4rem;
+                    }
+                }
+                h3 {
+                    font-size: 1rem;
+                    margin: 2rem 0;
+                    
+                }
+                a {
+                    width: fit-content;
+                }
+                h2 {
+                    font-size: 4rem;
+                    font-weight: 300;
+                    margin: 2rem 0;
+                }
+            }
+            .flexbox-2 {
+                width: 90%;
+                img {
+                    width: 100%;
+                }
             }
         }
-    
+    }
+}
+
+//booking
+#booking {
+    width: 90%;
+    margin: 0 auto;
+    .container {
+    .btn-2 {
+        width: fit-content;
+        padding: 2rem 10rem;
+        margin-bottom: 2rem;
+    }
+        .booking-flex {
+            gap: 100px;
+            .flexbox-1 {
+                width: 45%;
+                .btn-1 {
+                    width: fit-content;
+                    padding: 1.5rem 3rem;
+                }
+            }
+            .flexbox-2 {
+                width: 40%;
+                h2 {
+                    font-size: 2.5rem;
+                    font-weight: 300;
+                }
+                p {
+                    margin: 1.9rem 0;
+                    font-size: 1rem;
+                }
+                .btn-2 {
+                    width: fit-content;
+                    padding: 1.5rem 3rem;
+                }
+            }
+        }
     }
 }
 

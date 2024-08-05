@@ -1,1 +1,21 @@
-/*# sourceMappingURL=mobile.css.map */
+#mainheader .navbar {
+  padding-bottom: 2rem;
+}
+#mainheader .navbar .logo {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2rem 0;
+}
+#mainheader .navbar ul {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+#mainheader .navbar ul li {
+  display: inline;
+  text-align: center;
+}
+#mainheader .navbar .container {
+  display: block;
+}/*# sourceMappingURL=mobile.css.map */

@@ -1,0 +1,25 @@
+//mainheader
+#mainheader {
+    .navbar {      
+        padding-bottom: 2rem;
+        .logo {
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        ul {
+            text-align: center;
+            display: block;
+            margin: 0 auto;
+            li {
+                display: inline;
+                text-align: center;
+            }
+        }
+        .container {
+            display: block;
+        }
+    }
+}
+

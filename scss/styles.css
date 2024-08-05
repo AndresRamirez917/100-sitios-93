@@ -45,6 +45,7 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: #fff;
+  border: none;
   cursor: pointer;
 }
 
@@ -87,6 +88,7 @@ form .form-control {
   width: 100%;
   display: block;
   padding: 1rem;
+  margin-bottom: 1rem;
 }
 form input:focus {
   outline: none;
@@ -94,6 +96,7 @@ form input:focus {
 }
 
 #mainheader .navbar {
+  margin: 0 auto;
   background: violet;
 }
 #mainheader .navbar .logo {
@@ -101,17 +104,94 @@ form input:focus {
   font-weight: 300;
   color: #fff;
   margin: 0.8rem 3rem;
-  width: 30%;
 }
 #mainheader .navbar ul {
   display: flex;
-  margin-left: 25rem;
   margin-top: 1.5rem;
-  text-align: end;
 }
 #mainheader .navbar ul li {
   margin-left: 1rem;
-  text-align: end;
+}
+#mainheader .navbar .container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#showcase {
+  width: 90%;
+  margin: 0 auto;
+}
+#showcase .container .showcase-flex .flexbox-1 {
+  margin-top: 3rem;
+}
+#showcase .container .showcase-flex .flexbox-1 span {
+  color: violet;
+}
+#showcase .container .showcase-flex .flexbox-1 h1 {
+  font-size: 5rem;
+}
+#showcase .container .showcase-flex .flexbox-1 h1 .span-2 {
+  color: #000;
+  font-weight: 300;
+  font-size: 4rem;
+}
+#showcase .container .showcase-flex .flexbox-1 h3 {
+  font-size: 1rem;
+  margin: 2rem 0;
+}
+#showcase .container .showcase-flex .flexbox-1 a {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#showcase .container .showcase-flex .flexbox-1 h2 {
+  font-size: 4rem;
+  font-weight: 300;
+  margin: 2rem 0;
+}
+#showcase .container .showcase-flex .flexbox-2 {
+  width: 90%;
+}
+#showcase .container .showcase-flex .flexbox-2 img {
+  width: 100%;
+}
+
+#booking {
+  width: 90%;
+  margin: 0 auto;
+}
+#booking .container .btn-2 {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 2rem 10rem;
+  margin-bottom: 2rem;
+}
+#booking .container .booking-flex {
+  gap: 100px;
+}
+#booking .container .booking-flex .flexbox-1 {
+  width: 45%;
+}
+#booking .container .booking-flex .flexbox-1 .btn-1 {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 1.5rem 3rem;
+}
+#booking .container .booking-flex .flexbox-2 {
+  width: 40%;
+}
+#booking .container .booking-flex .flexbox-2 h2 {
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+#booking .container .booking-flex .flexbox-2 p {
+  margin: 1.9rem 0;
+  font-size: 1rem;
+}
+#booking .container .booking-flex .flexbox-2 .btn-2 {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 1.5rem 3rem;
 }
 
 #footer {
