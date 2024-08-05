@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 30px;
+  overflow: auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+.subtitle {
+  margin: 2rem 0;
+  font-size: 2.5rem;
+  font-weight: 300;
+  text-align: left;
+}
+
+.btn {
+  display: block;
+  padding: 20px 30px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-1 {
+  background: green;
+}
+
+.btn-2 {
+  background: blueviolet;
+}
+
+.btn-1, .btn-2:hover {
+  color: #000;
+}
+
+::-moz-placeholder {
+  font-family: "Font Awesome 5 free";
+  font-size: 600;
+  content: "\f007";
+  text-align: right;
+}
+
+::placeholder {
+  font-family: "Font Awesome 5 free";
+  font-size: 600;
+  content: "\f007";
+  text-align: right;
+}
+
+.flex {
+  display: flex;
+  flex: 1;
+  gap: 30px;
+}
+
+form .form-group {
+  margin-bottom: 1rem;
+}
+form .form-control {
+  width: 100%;
+  display: block;
+  padding: 1rem;
+}
+form input:focus {
+  outline: none;
+  border: 1px solid blue;
+}
+
+#footer {
+  padding: 3rem 0;
+  text-align: center;
+}/*# sourceMappingURL=styles.css.map */
