@@ -60,7 +60,10 @@ img {
     background: blueviolet;
 }
 
-.btn-1, .btn-2:hover {
+.btn-1:hover {
+    color: #000;
+}
+.btn-2:hover {
     color: #000;
 }
 
@@ -91,6 +94,16 @@ form {
         outline: none;
         border: 1px solid blue;
     }
+}
+ select {
+    .form-control {
+        font-family: 'Courier New', Courier, monospace;
+        color: red;
+    }
+ }
+
+::placeholder {
+    text-align: left;
 }
 
 //mainheader
@@ -125,6 +138,7 @@ form {
 #showcase {
     width: 90%;
     margin: 0 auto;
+    margin-bottom: 10rem;
     .container {
         .showcase-flex {
             .flexbox-1 {
@@ -169,6 +183,7 @@ form {
 #booking {
     width: 90%;
     margin: 0 auto;
+    margin-bottom: 10rem;
     .container {
     .btn-2 {
         width: fit-content;
@@ -183,6 +198,14 @@ form {
                     width: fit-content;
                     padding: 1.5rem 3rem;
                 }
+            //    .form-group {
+            //     .form-control {
+            //         option{
+            //             width: 100%;
+            //             font-family: 'Courier New', Courier, monospace;
+            //         }
+            //     }
+            //    }
             }
             .flexbox-2 {
                 width: 40%;
@@ -197,6 +220,73 @@ form {
                 .btn-2 {
                     width: fit-content;
                     padding: 1.5rem 3rem;
+                }
+            }
+        }
+    }
+}
+
+//about
+#about {
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+    .container {
+        .about-flex {
+            .flexbox-1 {
+                ul {
+                    margin-left: 2rem;
+                    margin-top: 1rem;
+                    line-height: 25px;
+                    li {
+                        .far {
+                            color: violet;
+                            padding: 0 1rem;
+                        }
+                    }
+                }
+            }
+            .flexbox-1, .flexbox-2 {
+                width: 50%;
+                h2 {
+                    font-size: 2rem;
+                    font-weight: 300;
+                    margin-bottom: 4rem;
+                }
+                p {
+                    line-height: 25px;
+                    font-size: 1.2rem;
+                }
+            }
+
+        }
+    }
+}
+
+//speakers
+#speakers {
+    width: 95%;
+    margin: 0 auto;
+    .container {
+        h2 {
+            font-size: 3rem;
+            margin: 2rem 0;
+            text-align: center;
+            font-weight: 300;
+        }
+        .flexbox-1 {
+            .flexbox-1-text {
+                background: violet;
+                h2 {
+                    font-size: 1.5rem;
+                    text-align: center;
+                    color: #fff;
+                }
+                h3 {
+                    padding-bottom: 2rem;
+                    font-size: 1.5rem;
+                    text-align: center;
+                    color: #fff;
                 }
             }
         }

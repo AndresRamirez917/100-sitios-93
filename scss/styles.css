@@ -57,7 +57,11 @@ img {
   background: blueviolet;
 }
 
-.btn-1, .btn-2:hover {
+.btn-1:hover {
+  color: #000;
+}
+
+.btn-2:hover {
   color: #000;
 }
 
@@ -95,6 +99,19 @@ form input:focus {
   border: 1px solid blue;
 }
 
+select .form-control {
+  font-family: "Courier New", Courier, monospace;
+  color: red;
+}
+
+::-moz-placeholder {
+  text-align: left;
+}
+
+::placeholder {
+  text-align: left;
+}
+
 #mainheader .navbar {
   margin: 0 auto;
   background: violet;
@@ -121,6 +138,7 @@ form input:focus {
 #showcase {
   width: 90%;
   margin: 0 auto;
+  margin-bottom: 10rem;
 }
 #showcase .container .showcase-flex .flexbox-1 {
   margin-top: 3rem;
@@ -159,6 +177,7 @@ form input:focus {
 #booking {
   width: 90%;
   margin: 0 auto;
+  margin-bottom: 10rem;
 }
 #booking .container .btn-2 {
   width: -moz-fit-content;
@@ -192,6 +211,58 @@ form input:focus {
   width: -moz-fit-content;
   width: fit-content;
   padding: 1.5rem 3rem;
+}
+
+#about {
+  width: 95%;
+  margin: 0 auto;
+  margin-bottom: 10rem;
+}
+#about .container .about-flex .flexbox-1 ul {
+  margin-left: 2rem;
+  margin-top: 1rem;
+  line-height: 25px;
+}
+#about .container .about-flex .flexbox-1 ul li .far {
+  color: violet;
+  padding: 0 1rem;
+}
+#about .container .about-flex .flexbox-1, #about .container .about-flex .flexbox-2 {
+  width: 50%;
+}
+#about .container .about-flex .flexbox-1 h2, #about .container .about-flex .flexbox-2 h2 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 4rem;
+}
+#about .container .about-flex .flexbox-1 p, #about .container .about-flex .flexbox-2 p {
+  line-height: 25px;
+  font-size: 1.2rem;
+}
+
+#speakers {
+  width: 95%;
+  margin: 0 auto;
+}
+#speakers .container h2 {
+  font-size: 3rem;
+  margin: 2rem 0;
+  text-align: center;
+  font-weight: 300;
+}
+#speakers .container .flexbox-1 .flexbox-1-text {
+  background: violet;
+}
+#speakers .container .flexbox-1 .flexbox-1-text h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #fff;
+}
+#speakers .container .flexbox-1 .flexbox-1-text h3 {
+  padding-bottom: 2rem;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #fff;
 }
 
 #footer {
